@@ -1,0 +1,48 @@
+html,
+body {
+  width: 99%;
+  height: 90%;
+}
+
+.background_color_1 {
+  background-color: black;
+  color: white;
+}
+
+.background_color_2 {
+  background-color: gray;
+}
+
+.center_text {
+  text-align: center;
+}
+
+.border_div {
+  border-style: solid;
+  border-color: white;
+  border-radius: 3%;
+}
+
+.main_container {
+  width: 80%;
+  margin-right: 10%;
+  margin-left: 10%;
+  margin-top: 5%;
+  height: 70vh;
+  display: flex;
+  align-items: center;
+}
+
+.square-a {
+  width: 35%;
+  height: 50vh;
+  margin-left: 5%;
+  display: flex;
+}
+
+.square-b {
+  margin-left: 5%;
+  height: 50vh;
+  width: 50%;
+  display: flex;
+}
