@@ -13,6 +13,10 @@ body {
   background-color: gray;
 }
 
+.background_color_3 {
+  background-color: lightgrey;
+}
+
 .center_text {
   text-align: center;
 }
@@ -23,26 +27,100 @@ body {
   border-radius: 3%;
 }
 
+.meme_border_div {
+  border-style: solid;
+  border-color: white;
+  border-width: 1%;
+}
+
+#meme_border_div_top {
+  border-bottom: none;
+}
+
+#meme_border_div_bottom {
+  border-top: none;
+}
+
+.border_meme {
+  border-style: solid;
+  border-color: black;
+  border-radius: 1%;
+}
+
 .main_container {
-  width: 80%;
-  margin-right: 10%;
-  margin-left: 10%;
+  width: 90%;
+  margin-left: 5%;
   margin-top: 5%;
-  height: 70vh;
+  height: 80vh;
   display: flex;
   align-items: center;
 }
 
-.square-a {
+.square_meme_a {
   width: 35%;
-  height: 50vh;
-  margin-left: 5%;
+  height: 35vh;
+  margin-left: 4%;
+  margin-top: -21%;
   display: flex;
 }
 
-.square-b {
+.square_meme_b {
+  width: 35%;
+  height: 35vh;
+  margin-left: -35.5%;
+  margin-top: 22%;
+  display: flex;
+  align-items: center;
+}
+
+.meme_container {
+  width: 40%;
+  height: 70%;
+  margin-top: 8.5%;
+  background-size: cover;
+  background-position: center;
+  margin-left: 6%;
+}
+
+#meme_window_1 {
+  background-image: url(/home/dci/Desktop/Workspace/uib_Eduarte_HTML/HTML/Images/Shaq.jpg);
+  height: 50%;
+  margin-top: 15%;
+}
+
+#meme_window_2 {
+  background-image: url(/home/dci/Desktop/Workspace/uib_Eduarte_HTML/HTML/Images/Pikachu.jpg);
+  border-radius: 100%;
+}
+
+#meme_window_3 {
+  background-image: url(/home/dci/Desktop/Workspace/uib_Eduarte_HTML/HTML/Images/Bob.png);
+  border-radius: 100%;
+}
+
+#meme_window_4 {
+  background-image: url(/home/dci/Desktop/Workspace/uib_Eduarte_HTML/HTML/Images/cat.jpg);
+}
+
+.square_b {
   margin-left: 5%;
-  height: 50vh;
+  height: 70vh;
   width: 50%;
   display: flex;
+  align-items: center;
+}
+
+.secondary_squares_b {
+  height: 90%;
+  width: 45%;
+}
+
+.div_text {
+  background-color: white;
+  border-color: lightgray;
+  margin-left: 3%;
+  color: black;
+}
+
+.div_gif {
 }
